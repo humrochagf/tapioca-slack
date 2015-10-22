@@ -5,4 +5,4 @@ __email__ = 'humrochagf@gmail.com'
 __version__ = '0.1'
 
 
-from tapioca_slack import Slack
+from tapioca_slack import Slack  # noqa
