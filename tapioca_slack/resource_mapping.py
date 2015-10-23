@@ -188,4 +188,108 @@ RESOURCE_MAPPING = {
         'resource': 'im.open',
         'docs': 'https://api.slack.com/methods/im.open'
     },
+
+    # oauth
+    'oauth_access': {
+        'resource': 'oauth.access',
+        'docs': 'https://api.slack.com/methods/oauth.access'
+    },
+
+    # pins
+    'pins_add': {
+        'resource': 'pins.add',
+        'docs': 'https://api.slack.com/methods/pins.add'
+    },
+    'pins_list': {
+        'resource': 'pins.list',
+        'docs': 'https://api.slack.com/methods/pins.list'
+    },
+    'pins_remove': {
+        'resource': 'pins.remove',
+        'docs': 'https://api.slack.com/methods/pins.remove'
+    },
+
+    # reactions
+    'reactions_add': {
+        'resource': 'reactions.add',
+        'docs': 'https://api.slack.com/methods/reactions.add'
+    },
+    'reactions_get': {
+        'resource': 'reactions.get',
+        'docs': 'https://api.slack.com/methods/reactions.get'
+    },
+    'reactions_list': {
+        'resource': 'reactions.list',
+        'docs': 'https://api.slack.com/methods/reactions.list'
+    },
+    'reactions_remove': {
+        'resource': 'reactions.remove',
+        'docs': 'https://api.slack.com/methods/reactions.remove'
+    },
+
+    # rtm
+    'rtm_start': {
+        'resource': 'rtm.start',
+        'docs': 'https://api.slack.com/methods/rtm.start'
+    },
+
+    # search
+    'search_all': {
+        'resource': 'search.all',
+        'docs': 'https://api.slack.com/methods/search.all'
+    },
+    'search_files': {
+        'resource': 'search.files',
+        'docs': 'https://api.slack.com/methods/search.files'
+    },
+    'search_messages': {
+        'resource': 'search.messages',
+        'docs': 'https://api.slack.com/methods/search.messages'
+    },
+
+    # stars
+    'stars_add': {
+        'resource': 'stars.add',
+        'docs': 'https://api.slack.com/methods/stars.add'
+    },
+    'stars_list': {
+        'resource': 'stars.list',
+        'docs': 'https://api.slack.com/methods/stars.list'
+    },
+    'stars_remove': {
+        'resource': 'stars.remove',
+        'docs': 'https://api.slack.com/methods/stars.remove'
+    },
+
+    # team
+    'team_access_logs': {
+        'resource': 'team.accessLogs',
+        'docs': 'https://api.slack.com/methods/team.accessLogs'
+    },
+    'team_info': {
+        'resource': 'team.info',
+        'docs': 'https://api.slack.com/methods/team.info'
+    },
+
+    # users
+    'users_get_presence': {
+        'resource': 'users.getPresence',
+        'docs': 'https://api.slack.com/methods/users.getPresence'
+    },
+    'users_info': {
+        'resource': 'users.info',
+        'docs': 'https://api.slack.com/methods/users.info'
+    },
+    'users_list': {
+        'resource': 'users.list',
+        'docs': 'https://api.slack.com/methods/users.list'
+    },
+    'users_set_active': {
+        'resource': 'users.setActive',
+        'docs': 'https://api.slack.com/methods/users.setActive'
+    },
+    'users_set_presence': {
+        'resource': 'users.setPresence',
+        'docs': 'https://api.slack.com/methods/users.setPresence'
+    },
 }
